@@ -1,0 +1,36 @@
+p {
+  margin: 0;
+  width: 8ex;
+  color: #fff;
+  font-size: 4.25em;
+  font-weight: 600;
+  line-height: 0.8em;
+  text-align: center;
+  text-transform: uppercase;
+}
+p span {
+  color: #3a3a3a;
+}
+p span span {
+  color: #fff;
+}
+@media (min-width: 30em) and (min-height: 30em) {
+  p {
+    font-size: 6.25em;
+  }
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  font-family: helvetica neue, gill sans, avenir next, helvetica, arial, sans-serif;
+  background: #111;
+}
